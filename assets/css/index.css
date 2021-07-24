@@ -1,9 +1,14 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
 .explore-menu {
     background-color: #C9ECB5;
     margin-left: 80px;
     margin-right: 80px;
     padding-top: 20px;
     padding-bottom: 50px;
+    position: relative;
 
 
 }
@@ -17,6 +22,7 @@
 }
 .item-1{
     padding-bottom: 50px;
+    
 }
 
 .explore-menu img {
@@ -27,6 +33,7 @@
 
 .explore-menu p {
     float: right;
+    text-align: center;
 }
 
 .explore-menu>h2 {
