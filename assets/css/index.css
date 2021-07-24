@@ -1,4 +1,28 @@
-.explore-menu-container{
+.explore-menu-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
+.explore-menu img{
+    height: 158px;
+    width: 190px;
+}
+p{
+    display: inline;
+    float: right;
+}
+h3{
+    float: right;
+}
+
+/*
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5,
+.item-6 {
+    height: 50px;
+    width: 50px;
+}
+*/
