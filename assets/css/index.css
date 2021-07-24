@@ -1,7 +1,8 @@
 .explore-menu{
-    background-color: #C9ECB5;
+  /*  background-color: #C9ECB5; */
     margin-left: 80px;
     margin-right: 80px;
+    padding-top: 20px;
     
 }
 
@@ -14,6 +15,7 @@
 .explore-menu img{
     height: 158px;
     width: 190px;
+    
 }
 .explore-menu p{
     float: right;
