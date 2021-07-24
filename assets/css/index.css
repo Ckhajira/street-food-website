@@ -1,7 +1,7 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
-
+/* This is the start of the explore menu styles */
 .explore-menu {
     background-color: #C9ECB5;
     margin-left: 80px;
@@ -35,6 +35,10 @@
     float: right;
     text-align: center;
 }
+.explore-menu p strong{
+    text-align: left;
+}
+
 
 .explore-menu>h2 {
     text-align: center;
@@ -43,6 +47,9 @@
 
 h3 {
     float: right;
+}
+.burger{
+    text-align: left;
 }
 
 /*
@@ -55,3 +62,5 @@ h3 {
     background-color: white;
 }
 */
+
+/* This is the end of explore-menu styles */
