@@ -78,7 +78,7 @@ h3 {
     flex-wrap: wrap;
     justify-content: space-around;
     position: relative;
-   
+
 
 
 
@@ -231,9 +231,7 @@ ul li {
     margin-left: 30px;
 }
 
-.description>h2 {
-    text-align: center;
-}
+
 
 .circle {
     position: absolute;
@@ -250,6 +248,56 @@ ul li {
 
 
 }
+
+.main-header {
+    text-align: center;
+    opacity: 1;
+}
+
+.head12 {
+    color: #6CB840;
+}
+
+.head13 {
+    color: #EAAB1B;
+}
+
+.head12,
+.head13 {
+    font-size: 37px;
+    letter-spacing: 2px;
+}
+.tagline{
+    font-size: 30px;
+    margin-top: -10px;
+}
+.details{
+    margin-top: -25px;
+}
+.button3 {
+    background-color: #6CB840;
+    border: none;
+    color: white;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    margin-top: 10px;
+
+}
+.description{
+    margin-left: 80px;
+}
+
+
+/*This is the end of the intro page styles */
+
+/*This is the beginning of the contact and footer styles */
 
 form input {
     border: 0;
@@ -292,23 +340,26 @@ form input {
     border-radius: 30px;
     margin-top: 10px;
 }
-.foot1{
+
+.foot1 {
     float: left;
     margin-left: 30px;
     margin-right: 40px;
-    
+
 }
 
-.foot2{
+.foot2 {
     float: left;
     margin-top: 40px;
 }
-.foot3{
+
+.foot3 {
     float: right;
     margin-top: 38px;
     line-height: 18px;
 }
-.foot-main{
+
+.foot-main {
     overflow: auto;
     background-color: #C9ECB5;
     margin-left: 80px;
@@ -317,16 +368,19 @@ form input {
     padding-top: 80px;
     padding-bottom: 20px;
 }
-.foot4{
+
+.foot4 {
     float: right;
     margin-left: 70px;
     margin-top: 50px;
-    
+
 }
-.foot4 img{
+
+.foot4 img {
     margin-top: -10px;
 }
-.button2{
+
+.button2 {
     display: block;
     background-color: #6CB840;
     border: none;
@@ -338,11 +392,12 @@ form input {
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    
+
 }
-.line{
+
+.line {
     border-right: 2px dashed #6CB840;
     padding-right: 60px;
 }
 
-/*This is the end of the intro page styles */
+/* This is the end of the contact and footer styles  */
