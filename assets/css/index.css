@@ -305,9 +305,13 @@ ul li {
     margin-left: 60px;
 }
 
-ul li #star {
+ul{
+    height: 60px;
+}
+    
+  
+.star2{
     height: 30px;
-    width: 50px;
 }
 
 
