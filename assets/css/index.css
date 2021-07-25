@@ -217,16 +217,39 @@ h3 {
     display: inline;
     height: 300px;
     width: 200px;
-    font-size: 20px;
+    
     line-height: 20px;
     vertical-align: middle;
-    margin-left: 180px;
+
 }
 
 
-ul li{
+ul li {
     list-style-type: none;
     display: inline;
+    margin-left: 30px;
+}
+
+.description>h2 {
+    text-align: center;
+}
+
+.circle {
+    position: absolute;
+    background-color: #649549;
+    transform: translate(0% -50%, -50% 0%);
+    height: 800px;
+    width: 1000px;
+    border-radius: 50%;
+    opacity: 0.4;
+    bottom: 30%;
+    left: 33%;
+    z-index: 2;
+    shape-outside: ellipse(300px 500px at 100% 50%);
+    
 
 }
+
+
+
     /*This is the end of the intro page styles */
