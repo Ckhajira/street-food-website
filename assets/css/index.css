@@ -217,7 +217,7 @@ h3 {
     display: inline;
     height: 300px;
     width: 200px;
-    
+
     line-height: 20px;
     vertical-align: middle;
 
@@ -246,10 +246,50 @@ ul li {
     left: 33%;
     z-index: 2;
     shape-outside: ellipse(300px 500px at 100% 50%);
-    
+
 
 }
 
+form input {
+    border: 0;
+    margin-left: 50px;
+    width: 500px;
+    border-radius: 15px;
+    height: 30px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.contact {
+    background-color: #FFD77C;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 20px;
+    text-align: center;
 
 
-    /*This is the end of the intro page styles */
+}
+
+::placeholder {
+    color: black;
+}
+
+.button1 {
+    background-color: #6CB840;
+    border: none;
+    color: white;
+    padding-top: 2px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+
+/*This is the end of the intro page styles */
