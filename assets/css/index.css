@@ -164,14 +164,26 @@ img>p{
 .text-1,.text-2,.text-3,.text-4,.text-5,.text-6{
     background-color: white;
     border-bottom-right-radius: 40px;
-    margin-left: 80px;
+    margin-left: 60px;
     padding-left: 50px;
     padding-right: 50px;
     margin-bottom: 50px;
 }
+.box{
+    top: 130px;
+    position: absolute;
+    width: 500px;
+    height: 270px;
+    border-style: dotted;
+    border-radius: 100%/700px 700px 4px 4px;
+    border-color: #6CB840 transparent transparent transparent ;
+    left: 0;
+    margin-left: 600px;
+    margin-bottom: 90px;
+}
 .item-1-1{
     position: absolute;
-    
+    padding-left: -20px;
     left: -20px;
     bottom: 60px;
    
@@ -408,7 +420,7 @@ ul li #star {
 
 .images-1 {
     position: absolute;
-    right: 600px;
+    right: 625px;
     background-color: white;
     z-index: 2;
     border-radius: 90px;
@@ -422,7 +434,7 @@ ul li #star {
 
 .images-2 {
     position: absolute;
-    right: 530px;
+    right: 560px;
     top: 170px;
     background-color: white;
     z-index: 2;
@@ -439,8 +451,8 @@ ul li #star {
 } */
 .images-3 {
     position: absolute;
-    right: 370px;
-    top: 100px;
+    right: 380px;
+    top: 90px;
     background-color: white;
     z-index: 2;
     border-radius: 90px;
@@ -460,7 +472,7 @@ ul li #star {
 
 .images-5 {
     position: absolute;
-    right: 200px;
+    right: 180px;
     top: 170px;
     background-color: white;
     z-index: 2;
@@ -470,8 +482,8 @@ ul li #star {
 
 .images-6 {
     position: absolute;
-    right: 100px;
-    top: 350px;
+    right: 115px;
+    top: 360px;
     background-color: white;
     z-index: 2;
     border-radius: 90px;
