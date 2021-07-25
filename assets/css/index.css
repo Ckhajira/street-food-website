@@ -189,7 +189,7 @@ h3 {
 .item-11 {
     width: 340px;
     height: 100px;
-    margin-right: -200px;
+    margin-right: 150px;
     margin-top: 80px;
     text-align: center;
 
@@ -228,9 +228,13 @@ h3 {
 ul li {
     list-style-type: none;
     display: inline;
-    margin-left: 30px;
+    margin-left: 60px;
 }
 
+ul li #star {
+    height: 30px;
+    width: 50px;
+}
 
 
 .circle {
@@ -267,13 +271,16 @@ ul li {
     font-size: 37px;
     letter-spacing: 2px;
 }
-.tagline{
+
+.tagline {
     font-size: 30px;
     margin-top: -10px;
 }
-.details{
+
+.details {
     margin-top: -25px;
 }
+
 .button3 {
     background-color: #6CB840;
     border: none;
@@ -290,10 +297,127 @@ ul li {
     margin-top: 10px;
 
 }
-.description{
+
+.description {
     margin-left: 80px;
 }
 
+#star-five {
+    margin: 50px 0;
+    position: relative;
+    display: block;
+    color: black;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid black;
+    border-left: 100px solid transparent;
+    transform: rotate(35deg);
+}
+
+#star-five:before {
+    border-bottom: 80px solid black;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -45px;
+    left: -65px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+}
+
+#star-five:after {
+    position: absolute;
+    display: block;
+    color: black;
+    top: 3px;
+    left: -105px;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid black;
+    border-left: 100px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+}
+
+.images-1 {
+    position: absolute;
+    right: 600px;
+    background-color: white;
+    z-index: 2;
+    border-radius: 90px;
+    top: 300px;
+
+}
+
+.hide-overflow {
+    overflow: hidden;
+}
+
+.images-2 {
+    position: absolute;
+    right: 530px;
+    top: 170px;
+    background-color: white;
+    z-index: 2;
+    border-radius: 90px;
+
+}
+
+/*
+.images-2-1{
+    position: absolute;
+    right: 500px;
+    z-index: 2;
+
+} */
+.images-3 {
+    position: absolute;
+    right: 370px;
+    top: 100px;
+    background-color: white;
+    z-index: 2;
+    border-radius: 90px;
+
+}
+
+.images-5-1 {
+    position: absolute;
+    right: 320px;
+    top: 350px;
+    background-color: white;
+    z-index: 2;
+    border-radius: 100px;
+
+
+}
+
+.images-5 {
+    position: absolute;
+    right: 200px;
+    top: 170px;
+    background-color: white;
+    z-index: 2;
+    border-radius: 90px;
+
+}
+
+.images-6 {
+    position: absolute;
+    right: 100px;
+    top: 350px;
+    background-color: white;
+    z-index: 2;
+    border-radius: 90px;
+}
+
+.images-9-1 {}
+
+.images-9 {}
 
 /*This is the end of the intro page styles */
 
