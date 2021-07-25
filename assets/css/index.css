@@ -169,33 +169,64 @@ h3 {
 }
 
 .eat-together {
-   
-    
+
+
     padding-top: 20px;
     padding-bottom: 50px;
 
 }
 
-.item-10 img{
+.item-10 img {
     width: 740px;
     height: 528px;
     margin-left: 30px;
-   
-    
-    
+
+
+
 }
-.item-11{
+
+.item-11 {
     width: 340px;
     height: 100px;
     margin-right: -200px;
     margin-top: 80px;
     text-align: center;
-    
+
 }
-.head4{
+
+.head4 {
     font-size: 37px;
     letter-spacing: 2px;
     color: #EAAB1B;
 }
 
 /* This is the end of the eat-together styles*/
+
+/*This is the start of the intro page styles*/
+
+.navigation-bar .nav {
+    display: inline;
+    padding: 25px;
+    list-style-type: none;
+
+
+
+}
+
+.navigation-bar {
+    display: inline;
+    height: 300px;
+    width: 200px;
+    font-size: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    margin-left: 180px;
+}
+
+
+ul li{
+    list-style-type: none;
+    display: inline;
+
+}
+    /*This is the end of the intro page styles */
