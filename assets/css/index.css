@@ -115,16 +115,16 @@ h3 {
 
 }
 
-.item-9 {
-    
-    right: 10;
-    top: 0;
+.alignment{
+    text-align: center;
 }
+
 
 .hot-deals>h2 {
     text-align: center;
     margin-bottom: 0;
 }
+
 .hot-deals img{
     position: absolute;
     top: 160px;
@@ -132,3 +132,23 @@ h3 {
     
 }
 
+.head2{
+    color: #6CB840;
+    font-size: 28px;
+}
+
+.item-9 p strong{
+    font-size: 35px;
+}
+
+.head3{
+    color: #6CB840;
+    font-size: 37px;
+    letter-spacing: 2px;
+
+}
+.item-9{
+    margin-top: 100px;
+    line-height: 37px;
+    letter-spacing: 2px;
+}
