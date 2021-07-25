@@ -9,6 +9,7 @@
     padding-top: 20px;
     padding-bottom: 50px;
     position: relative;
+    
 
 
 }
@@ -21,7 +22,7 @@
 
 }
 .item-1{
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     
 }
 
@@ -63,4 +64,27 @@ h3 {
 }
 */
 
+
 /* This is the end of explore-menu styles */
+
+.hot-deals{
+    display: flex;
+    background-color: #C9ECB5;
+    flex-wrap: wrap;
+  
+    margin-right: 80px;
+    margin-left: 80px;
+    
+}
+.hot-deals>h2{
+    text-align: center;
+}
+.hot-deals-img-1{
+    
+    
+  
+}
+.hot-deals-img-2{
+  
+    
+}
