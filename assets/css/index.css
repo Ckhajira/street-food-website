@@ -4,7 +4,7 @@
 
 /* This is the start of the explore menu styles */
 .explore-menu {
-    background-color: #C9ECB5;
+    background-color: lightgray;
     margin-left: 80px;
     margin-right: 80px;
     padding-top: 20px;
@@ -54,7 +54,8 @@ h3 {
 }
 
 .burger {
-    text-align: left;
+    margin-right: 80px;
+    font-size: 16px;
 }
 
 /*
@@ -156,6 +157,67 @@ h3 {
     margin-top: 100px;
     line-height: 37px;
     letter-spacing: 2px;
+}
+img>p{
+    text-align: left;
+}
+.text-1,.text-2,.text-3,.text-4,.text-5,.text-6{
+    background-color: white;
+    border-bottom-right-radius: 40px;
+    margin-left: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+}
+.item-1-1{
+    position: absolute;
+    
+    left: -20px;
+    bottom: 60px;
+   
+    
+}
+.item-2-2{
+    position: absolute;
+    left: 340px;
+    bottom: 280px;
+    
+}
+.item-3-3{
+    position: absolute;
+    right: 200px;
+    bottom: 280px;
+}
+.item-4-4{
+    position: absolute;
+    
+    top: 160px;
+}
+.item-5-5{
+    position: absolute;
+    bottom: 60px;
+    right: 570px;
+}
+.item-6-6{
+    position: absolute;
+    bottom: 60px;
+    right: 200px;
+}
+.text
+
+.text-4{
+    background-color: white;
+    border-bottom-right-radius: 40px;
+    margin-left: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.item-4-4{
+    position: absolute;
+    
+    left: 0;
+    bottom: 340px;
+    
 }
 
 /* This is the end of the hot-deals style */
@@ -415,9 +477,7 @@ ul li #star {
     border-radius: 90px;
 }
 
-.images-9-1 {}
 
-.images-9 {}
 
 /*This is the end of the intro page styles */
 
